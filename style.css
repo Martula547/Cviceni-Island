@@ -38,17 +38,42 @@ header {
 	background-size: cover;
 	color: white;
 	text-align: center;
+	position: relative;
 }
 h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
+	z-index: 5;
+	position: relative;
 }
 ul li {
 	font-family: 'Raleway', sans-serif;
 	list-style-type: none;
 	color: rgba(128, 128, 128, 0.137);
 	text-align: center;
+	text-transform: uppercase;
 }
 a {
 	text-decoration: none;
+	color:rgba(128, 128, 128, 0.507);
+	font-size: 14px;
+}
+.cerna {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(2, 2, 2, 0.397);
+}
+header p {
+	z-index: 5;
+	position: relative;
+}
+i {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.692);
+}
+img {
+	width: 100%;
 }
